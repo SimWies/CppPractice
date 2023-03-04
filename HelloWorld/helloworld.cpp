@@ -1,8 +1,13 @@
 #include <iostream>
 #include <unistd.h>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World" << std::endl;
+    cout << "Hello World" << endl;
+    cout << 10*16 << endl;
     sleep(3);
+
+    return 0;
 }
